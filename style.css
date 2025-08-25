@@ -10,7 +10,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .hero {
@@ -30,7 +30,7 @@ body {
 }
 
 #hero-section {
-  flex: 1; 
+  flex: 1;
   display: flex;
   align-items: center;
 }
@@ -56,21 +56,20 @@ body {
 .nav-links a {
   text-decoration: none;
   color: white;
-  font-family: "Inter Medium", sans-serif;
+   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 1.2rem;
 }
 
-
 .signup-btn {
   padding: 0.6rem 1.5rem;
-  border: 1px solid #3CB371;
+  border: 1px solid #3cb371;
 }
 
 .signup-btn:hover {
   background-color: #0d6efd;
-  color: white;              
-  transition: all 0.3s ease; 
+  color: white;
+  transition: all 0.3s ease;
   border: 1px solid #2d608ce6;
 }
 
@@ -80,21 +79,18 @@ body {
 
 .login-btn:hover {
   background-color: #0d6efd;
-  color: white;              
-  transition: all 0.3s ease; 
- 
+  color: white;
+  transition: all 0.3s ease;
 }
 
-
-
 .hr-border {
-  border-bottom: 0.5px solid #3CB371;
+  border-bottom: 0.5px solid #3cb371;
   width: 100%;
 }
 
 /* Hero Text */
 .hero-primary-one-A {
-  color: #85A9FF;
+  color: #85a9ff;
   font-family: "Century Gothic", sans-serif;
   font-size: clamp(2rem, 6vw, 6rem);
   font-weight: 700;
@@ -108,9 +104,9 @@ body {
 }
 
 .hero-textbox {
-  font-family: "Inter Medium", sans-serif;
-  font-weight: 400;
-  font-size: 1.1rem;
+   font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
 }
 
 .hero-img {
@@ -123,82 +119,368 @@ body {
 }
 
 .extra-margin {
-  margin-top: 5rem; 
+  margin-top: 5rem;
 }
 
 .btn-font {
-    /* font-family: "Inter Medium", sans-serif; */
-    font-size: 1.3rem;
-    font-weight: 400;
+   font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
-@media (max-width: 770px) {
-     .btn-container,
-     .hero-textbox-container {
-        justify-content: center !important;
-        align-items: center !important;  /* <--- this centers horizontally */
-        text-align: center; 
-    }
 
-    .hero-primary-one-A {
-        margin-top: 50px;
-    }
-    
+
+/* Second Section  */
+/* Second Section  */
+.second-section {
+  background-image: url("./src/second-section-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-h2 {
+  font-family: "Century Gothic", sans-serif;
+  color: #85a9ff;
+}
+.second-section h2 {
+  font-family: "Century Gothic", sans-serif;
+  color: #85a9ff;
+}
+
+.second-section p {
+   font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+.second-text {
+  width: 60%;
+
+}
+
+
+
+.vh-85 {
+  height: 75vh
+}
+
+
+
+
+/* Slider Section  */
+/* Slider Section  */
+
+
+
+  .slider-section {
+background-color: #041322;
+}
+
+  .second-end-txt {
+  font-family: "Century Gothic", sans-serif;
+  color: #85a9ff;
+}
+.second-end-txt-2 {
+   font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+.slider-cards {
+
+  background-color: #3a3939;
+  border-radius: 1rem;
+  max-width: 30%;
+
+}
+
+.slider-text {
+
+   font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  width: 80%;
+
+}
+
+.slider-text p {
+ font-weight: 400;
+}
+
+.slider-btn {
+ padding: 0.8rem 1.8rem !important ;
+}
+
+.slider-btn-font {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+.content-container {
+
+  padding: 3rem 0rem;
+ 
+}
+
+.slider-img img {
+  width: 90%;
+}
+
+.vh-110 {
+  height: 110vh;
+}
+
+/* Pricing Section */
+/* Pricing Section */
+
+.pricing-container {
+  background: linear-gradient(to bottom, #1a5589 20%, #031322 100%);
+}
+
+/* Card Container (glow + gradient) */
+.price-card-con {
+  background: linear-gradient(to bottom, #0a243c, #020e19);
+  border-radius: 12px;
+  box-shadow:
+    0 0 20px rgba(0, 255, 100, 0.4),
+    0 0 40px rgba(0, 255, 100, 0.2);
+}
+
+/* Headings & Text */
+.price-text {
+  font-weight: 700;
+  font-size: 3rem; 
+  font-family: "Century Gothic", sans-serif;
+}
+
+.price-text-2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+   font-family: 'Inter', sans-serif;
+}
+
+.price-primary-head {
+  font-size: 2rem;
+  font-weight: 700;
+   font-family: 'Inter', sans-serif;
+}
+
+.price-text-3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+   font-family: 'Inter', sans-serif;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.price-txt {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.buy-btn-font {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+/* FAQs Section */
+/* FAQs Section */
+
+.FAQ-bg {
+   background: linear-gradient(to bottom, rgba(36, 66, 61, 0.8), rgba(18, 33, 57, 0.8)),
+            url("./src/frequently-asked-bg.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.FAQ-head {
+font-family: "Century Gothic", sans-serif;
+font-size: 4rem;
+}
+
+.Qs {
+  font-size: 1.3rem !important;
+   font-family: 'Inter', sans-serif;
+}
+
+.Ans {
+  font-size: 1.05rem !important;
+   font-family: 'Inter', sans-serif;
+  word-spacing: 1px;
+ color: rgb(177, 183, 187);
+}
+
+
+.accordion-button.Qs {
+  color: #fff !important;
+  
+}
+
+
+.accordion-button.Qs:not(.collapsed) {
+  color: #fff !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+
+/* Footer  */
+/* Footer  */
+
+.bg-dark-custom {
+  background-color: #0e0e0e;
+}
+.footer-head {
+  color: #85a9ff;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.footer-links {
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-links:hover {
+  color: #85a9ff !important;
+  text-decoration: underline !important;
+}
+
+.footer-logo-text {
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-img {
+  margin-left: -7px;
+}
+
+/* Responsiveness */
+/* Responsiveness */
+/* Responsiveness */
+
+@media (max-width: 770px) {
+  .btn-container,
+  .hero-textbox-container {
+    justify-content: center !important;
+    align-items: center !important; /* <--- this centers horizontally */
+ 
+  }
+
+  .hero-primary-one-A {
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .signup-btn:hover,
+  .login-btn:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid #3cb371 !important; /* keep original border */
+    transition: none !important;
+  }
+
+   .vh-85 {
+    height: 110vh;
+  }
+
+  .second-section-img {
+    width: 80%;
+  }
+
+  .second-text {
+   width: 100%;
+
+
+}
+
+  .main-h2 {
+    margin-top: 1rem !important;
+  }
 }
 
 @media (max-width: 430px) {
-   .signup-btn {
-    padding: 0.5rem 0.5rem !important;  
-    /* font-size: 0.8rem; */
-
-
-  } 
+  .signup-btn {
+    padding: 0.4rem 0.4rem !important;
+    font-size: 1.1rem !important;
+  }
 
   .logo-img {
-  width: 40%;
-}
+    width: 40%;
+  }
 
-.logo {
+  .logo {
     margin-left: 1rem;
-}
+  }
 
   .nav-links {
-    gap: 0 !important;
-    margin-left: -1rem; 
-}
+    gap: 0.5rem !important;
+    margin-left: -1rem;
+  }
 
   .login-btn {
-    padding: 0.5rem 0.5rem;     
-   
+    padding: 0.4rem 0.6rem !important;
+    font-size: 1.1rem !important;
   }
-}
 
+   .vh-85 {
+    height: 100vh;
+  }
+    .FAQ-head{
+    font-size: 2rem;
+  }
+
+  
+
+}
 
 @media (max-width: 380px) {
+  .logo-img {
+    width: 40%;
+  }
 
-    .logo-img {
-  width: 40%;
-}
- 
-.logo-text {
-  font-size: 1.2rem;
-}
+  .logo-text {
+    font-size: 1.2rem;
+  }
 
-.signup-btn {
-    padding: 0.3rem 0.3rem !important;  
+  .signup-btn {
+    padding: 0.3rem 0.3rem !important;
     font-size: 1rem !important;
-  
-  } 
+  }
 
   .login-btn {
-    padding: 0.4rem 0.4rem !important;  
+    padding: 0.35rem 0.5rem !important;
     font-size: 1rem !important;
   }
 
   .nav-links {
-    gap: 1rem !important;
+    gap: 0.5rem !important;
   }
 
- 
+   .vh-85 {
+    height: 100vh;
+  }
 
+  .price-text {
+    font-size: 2.5rem;
+  }
+
+  .price-text-2 {
+    font-size: 1rem;
+  }
+
+
+ 
 }

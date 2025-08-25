@@ -6,22 +6,6 @@
   font-style: normal;
 }
 
-/* Helvetica Neue Black */
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url("fonts/HelveticaNeueBlack.otf") format("opentype");
-  font-weight: 900; /* Black weight */
-  font-style: normal;
-}
-
-/* Helvetica Neue Medium */
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url("fonts/HelveticaNeueMedium.otf") format("opentype");
-  font-weight: 500; /* Medium weight */
-  font-style: normal;
-}
-
 /* Raleway SemiBold */
 @font-face {
   font-family: "Raleway";
@@ -32,8 +16,9 @@
 
 /* Inter Medium Font */
 @font-face {
-  font-family: 'InterMedium';
-  src: url('./fonts/Inter_24pt-Medium.ttf') format('truetype');
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
+
